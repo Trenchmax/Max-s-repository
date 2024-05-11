@@ -1,0 +1,33 @@
+
+table {
+    width: 100%;
+    min-height: 100vh;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 33px 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+tr:nth-child() {
+    background-color: #f8f6ff;
+    
+}
+
+th {
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    padding: 10px 180px 10px 180px ;
+
+}
+
+td {
+    width: 100%;
+    padding: 0 30px 0 30px ;
+
+}
+

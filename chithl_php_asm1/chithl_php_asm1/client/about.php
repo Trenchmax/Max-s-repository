@@ -1,0 +1,86 @@
+<?php
+include "header.php";
+if (isset($_SESSION['admin']) !== true) {
+    header("location: login.php");
+    exit;
+}
+?>
+<link rel="stylesheet" href="../assets/client/css/style3.css">
+<div class="content">
+    <h1 class="tittle-content">
+        Giới thiệu về MobileStore
+    </h1>
+
+    <div class="quote-content">
+        <p>Là công ty hoạt động trong lĩnh vực bán lẻ và sửa chữa các sản phẩm công nghệ và lĩnh vực truyền thông
+            giải trí bao gồm 3 công ty thành viên CellphoneS - Điện thoại vui - Smedia và chuỗi trung tâm bảo hành
+            Apple AASP với quy mô hơn 2.000 nhân viên:</p>
+
+        <span>MobileStore</span>
+        <p>Sau hơn 10 năm vận hành và phát triển không ngừng, hệ thống bán lẻ CellphoneS liên tục mở rộng với chuỗi
+            hơn 100 cửa hàng trên toàn quốc và tự hào là 1 trong 5 hệ thống lớn nhất tại Việt Nam trong lĩnh vực
+            công nghệ.</p>
+        <span>Điện thoại vui</span>
+        <p>Tháng 5/2017, Điện Thoại Vui chính thức thành lập với tiền thân là trung tâm bảo hành của CellphoneS. Đến
+            nay, Điện Thoại Vui đã có hơn 21 cửa hàng được đánh giá là một trong những là chuỗi cửa hàng sửa chữa
+            ĐTDĐ số 1 tại Hồ Chí Minh và Hà Nội, là điểm đến uy tín cung cấp các dịch vụ sửa chữa chất lượng dành
+            cho khách hàng.</p>
+
+        <img src="../assets/client/img/photo_2021-12-28_18.22.26 (1).webp" alt="" class="img-content">
+        <span>
+            Schannel Network
+        </span>
+        <p>
+            Được xem là 1 trong những Network về YouTube hàng đầu Việt Nam điều hành hơn 18 kênh YouTube chất lượng.
+            <br><br>
+            Hiện nay, Schannel Network đã có tổng gần 10 triệu lượt Subscribers, hơn 250 triệu lượt views/tháng và
+            gần 100 nhân sự với 10 năm hoạt động trong lĩnh vực giải trí truyền thông.
+        </p>
+        <img src="../assets/client/img/cover-p0wrfk6z9h9gj2mzmxldovhtcsa62y19miw3i1k2mq_1.webp" alt="" class="img-content">
+        <span>
+            Trung tâm bảo hành Apple AASP
+        </span>
+        <p>
+            Tháng 11/2021, Điện Thoại Vui chính thức trở thành trung tâm bảo hành uỷ quyền của Apple và là trung tâm
+            bảo hành (APPLE Authorised Service Provider AASP) đầu tiên tại Hà Nội. Đây là trung tâm bảo hành uỷ
+            quyền toàn bộ các sản phẩm được bán chính hãng tại Việt Nam của hãng Apple như: iPhone, iPad, Mac, tai
+            nghe,...
+        </p>
+        <img src="../assets/client/img/download_6__1.webp" alt="" class="img-content">
+        <span>
+            Tầm nhìn:
+        </span>
+        <ul>
+            <li>Xây dựng một doanh nghiệp vững mạnh về tài chính và vững chãi về đời sống tinh thần.</li>
+            <li>Doanh nghiệp hạnh phúc và phụng sự, góp phần xây dựng xã hội phồn vinh.</li>
+            <li>Phủ sóng tất cả các tỉnh/ thành phố lớn tại Việt Nam cung cấp các sản phẩm giá tốt, mang lại sự an
+                tâm, tin tưởng và các trải nghiệm hài lòng cho khách hàng.</li>
+        </ul>
+        <br><br>
+        <span>Cam kết của công ty:</span>
+        <ul>
+            <li>Đem đến cho khách hàng các sản phẩm giá tốt, mang lại sự an tâm, tin tưởng.</li>
+            <li>Đem đến cho nhân viên một môi trường làm việc thân thiện, có nhiều cơ hội phát triển.</li>
+            <li>Đem đến cho quản lý một sân chơi công bằng để thể hiện, đảm bảo cuộc sống sung túc.</li>
+            <li>Đem đến cho mọi đối tác sự hợp tác chặt chẽ, tôn trọng lẫn nhau & đôi bên cùng phát triển.</li>
+        </ul>
+        <br><br>
+        <span>
+            Mục tiêu hướng tới
+
+        </span>
+        <br>
+        <ul>
+            <li>Phát triển cá nhân: Tạo ra môi trường bình đẳng cho các thành viên phát huy năng lực cá nhân & có
+                một đời sống đầy đủ, sung túc cả về vật chất lẫn đời sống tinh thần.</li>
+            <li>Môi trường làm việc: Xây dựng môi trường làm việc đoàn kết, thương yêu nhau trên giá trị cốt lõi của
+                tình huynh đệ.</li>
+            <li>Đóng góp xã hội: Tạo ra hàng ngàn việc làm, đóng thuế đầy đủ. Tích cực tham gia các hoạt động thiện
+                nguyện, cứu trợ các hoàn cảnh khó khăn trong xã hội..</li>
+        </ul>
+    </div>
+</div>
+
+<?php
+include "footer.php";
+?>

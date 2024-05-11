@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+ 
+  
+  .slider {
+    margin-top: 100px;
+    background-color: black;
+  }
+  
+  .img-slider {
+    width: 100%;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .quote-slider {
+    color: #fff;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    text-align: center;
+  }
+  .quote-slider h1 {
+    font-size: 50px;
+    padding: 20px;
+  }
+  
+  .form-controlt {
+    width: 100%;
+    margin: 20px 0 0 0;
+    padding: 15px 50px 15px 30px;
+    border-radius: 30px;
+    border: 0.5px solid grey;
+  }
+  
+  .tittle-help {
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .tittle-help h1 {
+    font-size: 40px;
+    padding: 30px;
+  }
+  
+  .img-small {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0 40px 0;
+  }
+  
+  .list-small {
+    width: 100%;
+    height: 180px;
+    background-color: #e1e2e3;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .list-small:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .list-smalls {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 24px;
+    margin: 0 0 0 80px;
+  }
+  .small-lists{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+    width: 90%;
+    margin: 50px 0 0 80px;
+  }
+  .small-list {
+    width: 100%;
+    height: 280px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #e1e2e3;
+  }
+  
+  .quote-small {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0 0 0;
+  }
+  .quote-small h6 {
+    padding: 20px 0 40px 0 ;
+  }
+  
+  .list-largers {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+    margin: 50px 0 0 80px;
+  
+  }
+  .list-larger {
+    text-align: justify;
+    height: 280px;
+    width: 100%;
+    border: 0.5px solid gray;
+    border-radius: 20px;
+  }
+  
+  .quote-list {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0 0 0;
+  }
+  .quote-list h2 {
+    width: 100%;
+  }
+  .img-list {
+    float: right;
+    margin-top: 0;
+  }
+  .quote-list p {
+    
+    padding: 20px 0 20px 0 ;
+  
+  }
+  .p {
+    text-decoration: underline;
+  }
+  
+  
